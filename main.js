@@ -121,7 +121,11 @@ let fruits = [
     "Apple",
     "Mango"
 ]
-console.log(fruits);
-// fruits.push("Grasp");
-fruits.pop();
+// console.log(fruits);
+// // fruits.push("Grasp");
+// let propedFruits = fruits.pop();
+// console.log(propedFruits);
+
+
+fruits.unshift("grasp", "lemon", "orange");
 console.log(fruits);
