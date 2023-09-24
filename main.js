@@ -93,16 +93,24 @@
 //     }
 //     console.log(i);
 // }
-for (let i =1; i<=10; i++){
-    if(i===4){
-        continue;
-    }
-    console.log(i);
-}
+// for (let i =1; i<=10; i++){
+//     if(i===4){
+//         continue;
+//     }
+//     console.log(i);
+// }
 
 
-let i = 10;
-do{
-    console.log(i);
-    i++
-}while(i<=10);
+// let i = 10;
+// do{
+//     console.log(i);
+//     i++
+// }while(i<=10);
+
+let fruits = ["apple", "banana", "grasp"];
+fruits[1]="mango";
+let obj = {};
+console.log(typeof fruits, fruits);
+console.log(Array.isArray(fruits));
+console.log(typeof obj);
+console.log(Array.isArray(obj));
