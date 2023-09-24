@@ -24,15 +24,43 @@
 // }
 
 
-let tempInDegree = 23;
-if(tempInDegree < 0){
-    console.log("extremly cold outside");
-}else if(tempInDegree < 25){
-    console.log("It is cold outside");
-}else if(tempInDegree < 35){
-    console.log("Wheather is okay");
-}else if(tempInDegree < 45){
-    console.log("lets go for swim");
-}else{
-    console.log("too hot");
+// let tempInDegree = 23;
+// if(tempInDegree < 0){
+//     console.log("extremly cold outside");
+// }else if(tempInDegree < 25){
+//     console.log("It is cold outside");
+// }else if(tempInDegree < 35){
+//     console.log("Wheather is okay");
+// }else if(tempInDegree < 45){
+//     console.log("lets go for swim");
+// }else{
+//     console.log("too hot");
+// }
+
+let day = 7;
+
+switch (day){
+    case 0:
+    console.log("Sunday");
+    break;
+    case 1:
+    console.log("Monday");
+    break;
+    case 2:
+    console.log("Tuesday");
+    break;
+    case 3:
+    console.log("Wednesday");
+    break;
+    case 4:
+    console.log("Thursday");
+    break;
+    case 5:
+    console.log("Friday");
+    break;
+    case 6:
+    console.log("Saturday");
+    break;
+    default:
+    console.log("Not a valid day");
 }
