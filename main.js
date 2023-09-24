@@ -127,5 +127,9 @@ let fruits = [
 // console.log(propedFruits);
 
 
-fruits.unshift("grasp", "lemon", "orange");
-console.log(fruits);
+// fruits.unshift("grasp", "lemon", "orange");
+// console.log(fruits);
+
+
+let removeFruits = fruits.shift();
+console.log(removeFruits, fruits);
