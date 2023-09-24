@@ -107,10 +107,21 @@
 //     i++
 // }while(i<=10);
 
-let fruits = ["apple", "banana", "grasp"];
-fruits[1]="mango";
-let obj = {};
-console.log(typeof fruits, fruits);
-console.log(Array.isArray(fruits));
-console.log(typeof obj);
-console.log(Array.isArray(obj));
+// let fruits = ["apple", "banana", "grasp"];
+// fruits[1]="mango";
+// let obj = {};
+// console.log(typeof fruits, fruits);
+// console.log(Array.isArray(fruits));
+// console.log(typeof obj);
+// console.log(Array.isArray(obj));
+
+
+let fruits = [
+    "Banana",
+    "Apple",
+    "Mango"
+]
+console.log(fruits);
+// fruits.push("Grasp");
+fruits.pop();
+console.log(fruits);
