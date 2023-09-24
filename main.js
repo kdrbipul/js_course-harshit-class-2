@@ -66,9 +66,19 @@
 // }
 
 
+// let i = 0;
+// while(i<=8){
+//     console.log(i);
+//     i++;
+// }
+// console.log("Hello"); 
+
+let num = 10;
+let total = 0;
 let i = 0;
-while(i<=8){
-    console.log(i);
-    i++;
+
+while (i <= 10) {
+    total = total + i;
+    i++
 }
-console.log("Hello"); 
+console.log(total);
